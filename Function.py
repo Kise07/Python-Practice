@@ -55,4 +55,6 @@ def exp(num1, num2):
     return total
 
 big_number = exp(33, 6)    
+big_number2 = exp(12, 12)    
 print(big_number)
+print(big_number2)
