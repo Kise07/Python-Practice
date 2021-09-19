@@ -1,2 +1,4 @@
 with open('readme.txt', 'r') as file:
-    print(file.read())
+    cotent = file.read()
+
+print("The content is", cotent)    
