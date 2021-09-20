@@ -1,7 +1,7 @@
-with open('emails.txt', 'r') as emails:  # looking for particular info in stack 
+with open('emails.txt', 'r') as emails:  
     emails = emails.readlines()
 
+print(emails)
 for email in emails:
-    print("Looking for a hotmails account")
-    if "hotmail" in email:
-        print(email)  
+    if "gmail" in email:
+        print(email.rstrip())  
