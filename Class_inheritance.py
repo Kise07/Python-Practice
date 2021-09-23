@@ -11,8 +11,18 @@ class Animal:
         pass
 
 class Tiger(Animal):  # Inheritance using (ClassName)
-    pass
+    def speak(self):
+        print("They're GREEEAATTTTT")  #1 Instansiating Or OverWriting
+
+class HouseCat(Animal):
+
+    fur_color = "Black"  #2 Instansiating Or OverWriting
+    
+    def speak(self):    #3 Instansiating Or OverWriting
+        print("Meow")
 
 tiger = Tiger()
 tiger.speak()
-print(type(tiger))
+cat = HouseCat()
+cat.speak()
+print(cat.fur_color)
